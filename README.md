@@ -26,3 +26,4 @@ var options = {
     user: [..., 'firstname', 'lastname']
     hooks: require('dm-login-hooks')
 };
+```
