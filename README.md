@@ -10,7 +10,11 @@ of [derby-login](https://github.com/dmapper/derby-login)
 
 ## Installation
 
-    npm install dm-derby-login
+### Add next string to your packege.json dependencies
+
+    "dm-derby-login": "git://github.com/dmapper/dm-derby-login"
+    
+### Reinstall your project node modules
 
 ## Setting
 
