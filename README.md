@@ -1,36 +1,20 @@
 # Dm-Derby-Login
 
-It is Derby login &amp; register module. Dm-derby-login is modified version 
-of [derby-login](https://github.com/dmapper/derby-login)
+Hooks for [derby-login](https://github.com/dmapper/derby-login)
 
-Additional functionality:
+Functionality:
 
 - Scraping profile data such as first name, last name and avatar from social network profile
  when you register via social networks. Scraping works for next social networks:
  facebook, linkedin, google and twitter
 
 
-## Installation
+## How to use it
 
-### Add next string to your packege.json dependencies
+Require dm-login-hooks and set its returned data to derby-login hooks option
 
-    "dm-derby-login": "git://github.com/dmapper/dm-derby-login"
-    
-### Reinstall your project node modules
-
-## Setting
-
-### Step 1. Require
-
-    var derbyLogin = require('dm-derby-login');
-
-### Step 2. Options (take a look at [default options](https://github.com/derbyparty/derby-login/blob/master/lib/defaultOptions.js))
-
-    var options = {};
-
-
-### Step 3. Middleware
-
-    .use(express.bodyParser()) //should be upper
-    .use(derbyLogin.middleware(store, options))
-
+```
+var options = {
+    hooks: require('dm-login-hooks')
+};
+```
