@@ -9,18 +9,23 @@
   "dependencies": {
     "bcrypt": "^0.8.0",
     "bcryptjs": "^2.0.2",
+    "derby-login": "^0.4.6",
     "extend": "~1.2.1",
+    "lodash": "^3.9.3",
     "ms": "^0.6.2",
     "passport": "~0.2.1",
-    "superagent": "~0.19.1",
     "scrypt": "*",
-    "scryptsy": "*"
+    "scryptsy": "*",
+    "superagent": "~0.19.1"
   },
   "devDependencies": {
     "jshint": "*",
     "mocha": "*",
     "racer": "*",
     "livedb-mongo-memory": "*"
+  },
+  "peerDependencies": {
+    "derby-login": "*"
   },
   "repository": {
     "type": "git",
