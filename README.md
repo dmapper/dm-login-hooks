@@ -10,7 +10,7 @@ of [derby-login](https://github.com/dmapper/derby-login)
 
 ## Installation
 
-    npm install derby-login
+    npm install dm-derby-login
 
 ## Setting
 
