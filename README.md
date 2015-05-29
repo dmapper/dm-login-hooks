@@ -11,10 +11,18 @@ Functionality:
 
 ## How to use it
 
-Require dm-login-hooks and set its returned data to derby-login hooks option
+### Require dm-login-hooks and set its returned data to derby-login hook's option
 
 ```
 var options = {
     hooks: require('dm-login-hooks')
 };
 ```
+
+### And add firstname and lastname values to array of values of user hook's option
+
+```
+var options = {
+    user: [..., 'firstname', 'lastname']
+    hooks: require('dm-login-hooks')
+};
