@@ -11,7 +11,7 @@ Hooks for [derby-login](https://github.com/dmapper/derby-login)
 
 ## How to use it
 
-### Require dm-login-hooks and set its returned data to derby-login hook's option
+### Require dm-login-hooks and set its returned data to derby-login option hooks
 
 ```
 var options = {
@@ -19,7 +19,7 @@ var options = {
 };
 ```
 
-### And add firstname and lastname values to array of values of user hook's option
+### And add firstname and lastname values to array of values of option user
 
 ```
 var options = {
