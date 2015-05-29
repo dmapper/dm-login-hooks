@@ -1,0 +1,34 @@
+<index:>
+
+  <form role="form" on-submit="submit()">
+
+    <div class="form-group">
+      <input type='text' class="form-control" placeholder="{{emailText || 'Email'}}" value="{{email}}" autofocus=true />
+      <p class="help-block"></p>
+    </div>
+
+    <div class="form-group">
+      <input type='password' class="form-control" placeholder="{{passwordText || 'Password'}}" value="{{password}}" />
+      <p class="help-block"></p>
+    </div>
+
+    <div class="form-group">
+      <input type='password' class="form-control" placeholder="{{confirmText || 'Confirm Password'}}" value="{{confirm}}" />
+      <p class="help-block"></p>
+    </div>
+
+    <div class="form-group">
+      <input type='firstname' class="form-control" placeholder="{{firstnameText || 'First name'}}" value="{{firstname}}" />
+      <p class="help-block"></p>
+    </div>
+
+    <div class="form-group">
+      <input type='lastname' class="form-control" placeholder="{{lastnameText || 'Last name'}}" value="{{lastname}}" />
+      <p class="help-block"></p>
+    </div>
+
+    <p class="text-danger">{{error}}</p>
+
+    <input type="submit" class="btn btn-primary btn-block" value="{{text || 'Register'}}" disabled="{{error || sending}}" />
+
+  </form>
