@@ -1,62 +1,11 @@
 {
-  "name": "dm-derby-login",
+  "name": "dm-login-hooks",
   "version": "0.0.1",
-  "description": "Decisionmapper auth plugin for Derby",
+  "description": "Decisionmapper auth hooks",
   "main": "lib",
-  "scripts": {
-    "test": "mocha \"test/**/*.mocha.js\"; ./node_modules/.bin/jshint components/**/*.js lib/**/*.js test/**/*.js"
-  },
-  "dependencies": {
-    "bcrypt": "^0.8.0",
-    "bcryptjs": "^2.0.2",
-    "extend": "~1.2.1",
-    "lodash": "^3.9.3",
-    "ms": "^0.6.2",
-    "passport": "~0.2.1",
-    "scrypt": "*",
-    "scryptsy": "*",
-    "superagent": "~0.19.1"
-  },
-  "devDependencies": {
-    "jshint": "*",
-    "mocha": "*",
-    "racer": "*",
-    "livedb-mongo-memory": "*"
-  },
-  "peerDependencies": {
-    "derby-login": "*"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dmapper/dm-derby-login.git"
+    "url": "git://github.com/dmapper/dm-login-hooks.git"
   },
-  "keywords": [
-    "derby",
-    "derbyjs",
-    "auth",
-    "login"
-  ],
-  "author": {
-    "name": "Vladimir Makhaev"
-  },
-  "license": "MIT",
-  "homepage": "git://github.com/dmapper/dm-derby-login.git",
-  "maintainers": [
-    {
-      "name": "vmakhaev",
-      "email": "vmakhaev@gmail.com"
-    },
-    {
-      "name": "zag2art",
-      "email": "zag2art@gmail.com"
-    },
-    {
-      "name": "cray0000",
-      "email": "cray0000@gmail.com"
-    },
-    {
-      "name": "zheoreh",
-      "email": "oeswww@gmail.com"
-    }
-  ]
+  "homepage": "git://github.com/dmapper/dm-login-hooks.git"
 }
